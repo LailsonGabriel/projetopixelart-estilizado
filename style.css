@@ -1,0 +1,122 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
+header h1 {
+  text-align: center;
+  font-family: ubuntu;
+  color: white;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.color {
+  display: inline-block;
+  border: 1px solid black;
+}
+
+.red {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.tomato {
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+}
+
+.blue {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+.black {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  border-radius: 100%;
+  border: 2px solid white
+}
+
+#pixel-board {
+  margin-top: 50px;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.pixel {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+}
+
+.random {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  border: 2px solid white;
+}
+
+/* Estilizando site */
+
+
+body {
+  background-image: url(imagens/wp2742875.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-attachment: fixed;
+}
+
+#color-palette {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 500px;
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+#clear-board {
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.4);
+  font-family: 'ubuntu';
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  box-shadow: none;
+  border-radius: 10px;
+}
+
+.divzinha h4 {
+  color: white;
+  font-family: ubuntu;
+  margin-bottom: 10px;
+}
+
+#board-size {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  font-size: 18px;
+  border: none;
+  height: 20px;
+  text-align: center;
+}
+
+#generate-board {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  font-size: 15px;
+  border: solid 1px white;
+  border-radius: 10px;
+  padding: 5px;
+  font-family: ubuntu;
+}
